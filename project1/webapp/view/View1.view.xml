@@ -1,0 +1,13 @@
+<View controllerName="project1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:it="project1.control">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<it:MarkdownEditor id="expectation" maxLength="5000" value="{data>/expectations}"
+						toolbar='["bold", "italic", "link", "|", "unordered-list", "ordered-list", "|", "preview"]' 
+						height="10rem" minHeight="10rem"/>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</View>
